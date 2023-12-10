@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(70, 174, 70);
+    font-size: 50px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: rgb(45, 45, 45);
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+/* Color page */
+
