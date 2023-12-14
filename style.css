@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: rgb(70, 174, 70);
+    color: rgb(62, 61, 61);
     font-size: 50px;
 }
 
@@ -18,4 +18,43 @@ p {
 
 
 /* Color page */
+
+.color-img{
+    width: 250px;
+    height: auto;
+}
+
+.color-title{
+    text-align: right;
+    font-size: 32px;
+
+}
+
+#red {
+    color: red;
+}
+
+#green{
+    color:green
+}
+
+#blue {
+    color:blue
+}
+
+
+/* meme page */
+
+.poster{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Libre Baskerville', serif ;
+}
+
+.meme-img{
+    border: 5px solid white;
+    width: 100%;
+}
 
