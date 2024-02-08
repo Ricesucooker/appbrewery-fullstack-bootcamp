@@ -19,11 +19,104 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+
+    /* Grid layout*/
+    body{
+      height: 748px;
+      width: 748px;
+    }
+
+    .Boxs {
+      position: absolute;
+      z-index: -1;
+      display: grid;
+      grid-template-columns: 320px 419px;
+      grid-template-rows: 414px 299px 20px ; 
+      gap: 9px;
+      background-color: #000;
+    
+    }
+
+    .Box1{
+      background-color: #E72F24;
+    }
+
+    .Box2{
+      background-color: #F0F1EC ;
+    }
+    
+    .Box3{
+      background-color: #F0F1EC ;
+    }
+    .Box4{
+      background-color: #F0F1EC ;
+    }
+
+    .Box5{
+      background-color: #f0f1ec ;
+    }
+
+    /* Flexbox */
+
+
+    .Box6 {
+      display: flex;
+      position: relative;
+    }
+    .flex1 {
+      background-color: #f9d01e;
+      width: 198px;
+    }
+
+    .flex2 {
+      background-color: #232629;
+      width: 153px;
+    }
+
+    .Box7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50px;
+    left: 689px;
+    top: 422px;
+    border-left: solid 9px black;
+  }
+
+  .flex3{
+    background-color: #004592;
+    height: 140px;
+    width: 50px;
+    border-bottom: black 10px solid;
+  }
+
+  .flex4{
+    background-color: #f0f1ec;
+    height: 170px;
+    width: 50px;
+    border-top: black 10px solid;
+  }
+
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+  <div class="Boxs">
+    <div class="Box1"></div>
+    <div class="Box2"></div>
+    <div class="Box3"></div>
+    <div class="Box4"></div>
+    <div class="Box5"></div>
+    <div class="Box6">
+      <div class="flex1"></div>
+      <div class="flex2"></div>
+    </div>
+  </div>
+  <div class="Box7">
+    <div class="flex3"></div>
+    <div class="flex4"></div>
+  </div>
 </body>
 
 </html>
